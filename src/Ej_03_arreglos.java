@@ -1,7 +1,13 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Ej_03_arreglos {
+    /*EJERCICIO:
+     * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto
+     *   en tu lenguaje.
+     * - Utiliza operaciones de inserción, borrado, actualización y ordenación.
+     */
     public static void main(String[] args) {
         int[] arreglo = new int[5];
         Random rand = new Random();
@@ -17,11 +23,12 @@ public class Ej_03_arreglos {
         boolean continuar = true;
 
         while (continuar) {
-            System.out.println("\n----Menú----");
+            System.out.println("\n----Menú Arreglo----");
             System.out.println("1. Mostrar arreglo");
             System.out.println("2. Cambiar un valor del arreglo");
             System.out.println("3. Eliminar elemento");
-            System.out.println("4. Salir");
+            System.out.println("4. Ordenar los elementos del arreglo");
+            System.out.println("5. Salir");
             System.out.println("Ingrese una opción:");
             int opcion = scanner.nextInt();
 
@@ -37,6 +44,10 @@ public class Ej_03_arreglos {
                     arreglo = eliminar(arreglo, scanner); // Actualiza el arreglo después de eliminar
                     break;
                 case 4:
+                    Arrays.sort(arreglo);
+                    System.out.println("Orden los elementos del arreglo: "+ Arrays.toString(arreglo));
+                    break;
+                case 5:
                     System.out.println("Saliendo...");
                     continuar = false;
                     break;
