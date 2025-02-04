@@ -11,18 +11,18 @@ public class Ej_02 {
 
     static int variable_global = 10;
     public static void main(String[] args) {
-    //funciones y procedimientos
+        //funciones y procedimientos
         funcion_sin_parametros();
         funcion_con_paramtro(7);
         System.out.println("Funcion con retorno de la suma de 5 y 4 " + funcion_con_retorno(5,4));
-    //funciones de funciones
+        //funciones de funciones
 
         System.out.println("No se puede usar funciones de funciones dentro de Java");
 
-    //ejemplo de funciones del lenguaje
+        //ejemplo de funciones del lenguaje
 
         System.out.println("Número aleatorio entre 30,000 y 10,000,000: " + (30_000 + (int)(Math.random() * (10_000_001 - 30_000))));
-    //ejemplo global y local
+        //ejemplo global y local
 
         System.out.println("Valor inicial de la variable global " + variable_global);
         modificar_global();
