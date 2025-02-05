@@ -23,7 +23,7 @@ public class Ej_03_arreglos {
         boolean continuar = true;
 
         while (continuar) {
-            System.out.println("\n----Menú Arreglo----");
+            System.out.println("\n----Menú Arreglos----");
             System.out.println("1. Mostrar arreglo");
             System.out.println("2. Cambiar un valor del arreglo");
             System.out.println("3. Eliminar elemento");
