@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Ej_04_ArrayList{
+public class Ej_03_ArrayList {
     /*EJERCICIO:
      * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto
      *   en tu lenguaje.
