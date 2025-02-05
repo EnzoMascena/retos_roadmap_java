@@ -14,7 +14,7 @@ public class MainGUI {
         JPanel panel = new JPanel();
 
         // Crear botones para los ejercicios
-        JButton buttonEj00 = new JButton("Ejercicio 00");
+        JButton buttonEj00 = new JButton("Ejercicio 00.");
         JButton buttonEj01 = new JButton("Ejercicio 01");
         JButton buttonEj01Extra = new JButton("Ejercicio 01 Extra");
         JButton buttonEj02 = new JButton("Ejercicio 02");
