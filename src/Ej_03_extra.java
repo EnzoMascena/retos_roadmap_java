@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
-
 public class Ej_03_extra {
     /*Crea una agenda de contactos por terminal.
      * - Debes implementar funcionalidades de búsqueda, inserción, actualización
